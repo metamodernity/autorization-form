@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <style>
+    p {
+    font-size: 120%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336;
+    }
+    th {
+    font-size: 120%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336;
+    }
+        td {
+    font-size: 120%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336;
+    }
+    table {
+   border-collapse: collapse;
+   border: 2px solid grey;
+   width: 40%;
+   .col1 {
+    width: 100px;
+
+   }
+}
+button {
+   border-collapse: collapse;
+   border: 2px solid grey;
+}
+    </style>
+</head>
+<body bgcolor="#B8EAF2">
+<center>
+<div class="form_auth_block">
+    <div class="form_auth_block_content">
+        <p class="form_auth_block_head_text">Авторизация на сайте</p>
+        <form class="form_auth_style" action="#" method="post">
+            <table bgcolor="#D0F5F5" border="1" width="100%" cellpadding="5">
+                <tr>
+                    <th><label>Введите ваш e-mail</label>
+                        <input type="email" name="auth_email" placeholder="e-mail" required ></th>
+                </tr>
+                <tr>
+                    <td><center><label>Введите ваш пароль</label>
+                        <input type="password" name="auth_pass" placeholder="password" required ></center></td>
+                </tr>
+            </table>
+            <p></p>
+            <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+        </form>
+    </div>
+</div>
+</center>
+</body>
+</html>
