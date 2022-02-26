@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>authorization</title>
+    <style type="text/css">
+    body {
+		position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+background: url(img/back.png) #282828 79%;
+
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('http://hb.bizmrg.com/fonts/montserrat/400.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.form_auth_block_head_text
+{
+position: absolute;
+width: 643px;
+height: 579px;
+left: 399px;
+top: 254px;
+background: #FFFFFF;
+border-radius: 20px;
+filter: drop-shadow(0 0 20px #00A3FF);
+}
+.reg {
+position: absolute;
+width: 643px;
+height: 146px;
+left: 0px;
+top: 0px;
+
+background: #00A3FF;
+border-radius: 20px;
+
+}
+h1 {
+font-family: Montserrat;
+
+
+margin-left: 13%;
+font-size: 64px;
+line-height: 78px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.password {
+position: absolute;
+width: 449px;
+height: 49px;
+left: 96px;
+top: 268px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.email {
+position: absolute;
+width: 449px;
+height: 49px;
+left: 96px;
+top: 190px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+.quest {
+	margin-left: 15% ;
+margin-top: 122%;
+width: 301px;
+height: 17px;
+}
+.text {
+ 	position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+
+letter-spacing: 0.1em;
+
+color: #000000;
+ }
+
+ }
+.avt:hover {
+	color: #00A3FF
+}
+input {
+	margin-top: 3%;
+	margin-left: 10%;
+	border-style: none;
+	height: 50%;
+	width: 50%;
+	outline: 0;
+outline-offset: 0;
+}
+button {
+position: absolute;
+width: 299px;
+height: 50px;
+left: 170px;
+top: 378px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+p {
+ 	font-family: Montserrat;
+font-style: normal;
+letter-spacing: 0.1em;
+color: rgba(0, 0, 0, 0.5);
+margin-top: -45%;
+margin-left: 15%;
+}
+h2{
+position: absolute;
+width: 157.55px;
+height: 17px;
+left: 69px;
+top: 4px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+img {
+ 	position: absolute;
+width: 23px;
+height: 23px;
+top: 25%;
+left: 2%;
+    </style>
+    <body>
+
+    <div class="form_auth_block">
+        <div class="form_auth_block_content">
+            <div class="form_auth_block_head_text">
+                <form class="form_auth_style" action="#" method="post">
+    <div class="reg">
+        <h1>Авторизация</h1>
+    </div>
+    <div class="password">
+        <img src="img/key.png">
+        <input type="password" name="auth_pass" placeholder="Пароль" required >
+    </div>
+    <div class="email">
+        <img src="img/e-mail.png">
+        <input type="email" name="auth_email" placeholder="e-mail" required >
+    </div>
+    <button class="avto" href="#" >
+        <h2><a class="entrance" type="submit" name="form_auth_submit">Авторизироваться</a></h2>
+    </button>
+    <div class="quest">
+        <p class="text">Забыли пароль?<a class="avt" href="#">Восстановить!</a></p>
+    </div>
+</form>
+</div>
+        </div>
+    </div>
+    <script type="text/javascript">
+		$(function(){
+
+		});
+	</script>
+
+</body>
